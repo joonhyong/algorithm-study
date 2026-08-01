@@ -34,7 +34,7 @@
 ### 예시
 
 - 문제 풀이 추가
-  `[solve] Programmers Lv0: 두 수의 합`
+  `[solve] PG Lv0: 두 수의 합`
 
 - 처음 레포지토리 생성
   `[init] Initialize algorithm repository`

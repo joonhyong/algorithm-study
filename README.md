@@ -53,19 +53,77 @@
 ```js
 algorithm-study
 │
-├── Programmers
+├── PG
+│   │
 │   ├── Level0
+│   │   │
+│   │   ├── Implementation
+│   │   │   ├── 두_수의_합
+│   │   │   │   └── solution.js
+│   │   │   ├── 두_수의_차
+│   │   │   │   └── solution.js
+│   │   │   └── 몫_구하기
+│   │   │       └── solution.js
+│   │   │
+│   │   ├── String
+│   │   │   ├── 특정_문자_제거하기
+│   │   │   │   └── solution.js
+│   │   │   ├── 문자열_뒤집기
+│   │   │   │   └── solution.js
+│   │   │   └── 대문자와_소문자
+│   │   │       └── solution.js
+│   │   │
+│   │   ├── Array
+│   │   │   ├── 배열의_평균값
+│   │   │   │   └── solution.js
+│   │   │   └── 배열_뒤집기
+│   │   │       └── solution.js
+│   │   │
+│   │   └── Math
+│   │       └── ...
+│   │
+│   │
 │   ├── Level1
-│   │   ├── 두_정수_사이의_합.js
-│   │   ├── 문자열_내림차순.js
-│   │   └── ...
+│   │   │
+│   │   ├── Hash
+│   │   │   ├── 완주하지_못한_선수
+│   │   │   │   └── solution.js
+│   │   │   └── 폰켓몬
+│   │   │       └── solution.js
+│   │   │
+│   │   ├── Sort
+│   │   │   ├── K번째수
+│   │   │   │   └── solution.js
+│   │   │   └── 문자열_내림차순으로_배치하기
+│   │   │       └── solution.js
+│   │   │
+│   │   ├── Greedy
+│   │   │   └── 체육복
+│   │   │       └── solution.js
+│   │   │
+│   │   └── BruteForce
+│   │       └── ...
+│   │
+│   │
 │   └── Level2
+│       ├── DFS_BFS
+│       ├── DP
+│       ├── Graph
+│       └── ...
+│
 │
 ├── Notes
+│   ├── Implementation.md
+│   ├── String.md
+│   ├── Array.md
+│   ├── Hash.md
+│   ├── Stack.md
+│   ├── Queue.md
 │   ├── DFS.md
 │   ├── BFS.md
 │   ├── DP.md
-│   └── Hash.md
+│   └── Sort.md
+│
 │
 └── Review
     ├── 괄호_회전하기.md
@@ -73,6 +131,6 @@ algorithm-study
     └── ...
 ```
 
-- Programmers: 프로그래머스의 알고리즘 문제 풀이 코드
+- PG: 프로그래머스의 알고리즘 문제 풀이 코드
 - Notes: 알고리즘 개념 정리
 - Review: 어려웠던 문제, 여러 풀이 비교 등 분석

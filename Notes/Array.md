@@ -9,6 +9,8 @@ const arr = [];
 const arr = [1, 2, 3, 4, 5];
 ```
 
+---
+
 ### 2) 길이가 n인 빈 배열 - new Array()
 
 #### 1. new Array()로만 배열 생성 -> 길이가 n인 빈 배열 생성
@@ -36,6 +38,8 @@ const arr2 = new Array(3).fill(undefined);
 
 - 따라서, Array.from()과 같이 사용함.
 
+---
+
 ### 3) 길이가 n인 배열 - Array.from()
 
 - 알고리즘에서 유용한 배열 생성 방법
@@ -60,6 +64,8 @@ const arr = Array.from({ length: 5 }, (_, i) => i);
 const arr = Array.from({ length: 5 }, (_, i) => i + 1);
 // 결과: [1, 2, 3, 4, 5]
 ```
+
+---
 
 ### 4) 같은 값으로 채우기 - fill() 혹은 from()
 
@@ -129,6 +135,8 @@ Array.from({ length: 5 }, () => 0);
 
    - 자바스크립트에서 기본적으로 제공되는 메서드냐를 기준으로 함
    - 전부 자바스크립트가 기본적으로 제공하므로 내장 메서드
+
+---
 
 ### 5) 문자열을 배열로 변환 - split()
 

@@ -184,3 +184,55 @@ console.log(str.split());
 "Hello World".split(" ");
 // ["Hello", "World"]
 ```
+
+---
+
+##2. 배열 관련 메서드
+
+#### 인스턴스 (instance) : 어떤 생성 방법(클래스/생성자)을 통해 만들어진 실제 객체
+
+```js
+const arr = new Array(1, 2, 3);
+// Array는 배열을 만드는 생성자
+// arr는 실제로 만들어진 배열 객체 = 인스턴스
+```
+
+### reduce() 메서드
+
+#### 정의
+
+- 배열의 요소를 순회하며 누적 연산을 수행하고 하나의 결과값을 반환하는 배열의 인스턴스 메서드
+
+#### 특징
+
+- 원본 배열 변경하지 않음
+- 콜백 함수의 반환값이 다음 실행의 accumlulator로 전달됨
+- acc의 초기값을 지정하지 않는 경우,
+  - 첫번째 요소를 acc의 초기값으로 사용
+  - 콜백 함수의 반복 횟수는 배열 길이 - 1
+
+#### 형식
+
+```js
+array.reduce((acc, cur, index, array) => {
+  return 새로운_누적값;
+}, initialValue);
+
+// acc (accumulator) → 누적값
+// cur (currentValue) → 현재 요소
+// index → 현재 요소의 인덱스 (생략 가능)
+// array → reduce()를 호출한 원본 배열 (생략 가능)
+// initialValue → acc의 초기값 (생략 가능)
+```
+
+#### 예시
+
+```js
+const numbers = [1, 2, 3];
+
+const sum = numbers.reduce((acc, cur) => {
+  return acc + cur;
+}, 0);
+
+// sum = 6
+```

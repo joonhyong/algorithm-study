@@ -30,6 +30,7 @@
 | docs     | README, Notes 수정         |
 | refactor | 기존 풀이 개선             |
 | review   | 어려운 문제 복습 내용 추가 |
+| fix      | 오타 수정 등               |
 
 ### 예시
 

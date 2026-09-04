@@ -14,7 +14,7 @@ Review 여부: false
 # 💡 문제 풀이
 - 방식1. 반복문 사용
   0.[x, answer] = [1, 0] 로 초기화   
-  1. while문 조건식: x*x < n
+  1. while문 조건식: x*x <= n
   2. x*x === n이면 return answer = x+1
   3. while문이 조건식에 의해 종료되면 return -1
 
@@ -35,7 +35,7 @@ function solution(n) {
   let x = 1;
   let answer = -1;
 
-  while (x * x < n) {
+  while (x * x <= n) {
     if (x * x === n) {
       answer = (x + 1) * (x + 1);
       break;

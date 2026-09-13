@@ -115,6 +115,9 @@ map.has(key); // 존재 여부 확인
 map.delete(key); // 삭제
 map.clear(); // 전체 삭제
 map.size; // 요소 개수
+
+- map.keys(); // Map의 모든 Key를 포함하는 이터레이터(MapIterator) 반환
+- map.values(); // Map의 모든 Value를 포함하는 이터레이터(MapIterator) 반환
 ```
 
 #### 해시 활용
